@@ -19,4 +19,19 @@ header {
 .logo {
   width: 167px;
   height: 29px;
+  right: 100%;
+}
+
+.menu {
+  width: 234px;
+  height: 15px;
+  left: 100%;
+  position: absolute;
+}
+
+.h1 {
+  width: 684px;
+  height: 151px;
+  position: absolute;
+  align-items: center;
 }
