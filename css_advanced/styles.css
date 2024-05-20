@@ -1,18 +1,4 @@
 body {
-  height: 1093px;
-  background-image: url(background.png);
-  background-size: cover;
-}
-
-header {
-  top: 0;
-}
-
-a.logo-link {
-  background-image: url(logo.png);
-  position: absolute;
-  width: 167px;
-  height: 29px;
-  top: auto;
-  left: auto;
+  width: 1440px;
+  height: 3718px;
 }
