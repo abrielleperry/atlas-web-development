@@ -1,7 +1,9 @@
 header {
-  background-image: url('background.png')
+  height: 1093px;
+  background-image: url(background.png);
+  background-size: 100% 100%;
 }
 
-a img {
-  margin-right: 10px;
+.logo-link {
+
 }
