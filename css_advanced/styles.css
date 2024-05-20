@@ -1,3 +1,7 @@
-a img {
+header {
+  background-image: url('background.png')
+}
 
+a img {
+  margin-right: 10px;
 }
