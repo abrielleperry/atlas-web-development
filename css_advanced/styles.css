@@ -1,6 +1,14 @@
-header {
+body {
   height: 1093px;
   background-image: url(background.png);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
+.logo-link {
+  background-image: url(logo.png);
+  position: absolute;
+  width: 167px;
+  height: 29px;
+  top: 0;
+  left: 0;
+}
