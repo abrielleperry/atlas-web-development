@@ -59,10 +59,13 @@ header {
   color: #FFF;
 }
 
-.three-words p {
+.three-words {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.three-words p {
   font-family: 'Source Sans Pro', 'helvetica';
   font-weight: 700;
   font-size: 16px;
