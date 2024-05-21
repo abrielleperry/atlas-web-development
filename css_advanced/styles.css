@@ -4,33 +4,60 @@ body {
 }
 
 .background-img {
-  background-image: url("images/background.png");
+  background-image: url('images/background.png');
   width: 1440px;
   height: 1093px;
-  position: absolute;
+  position: fixed;
 }
 
 header {
+  position: relative;
   width: 1103px;
   height: 29px;
-  position: absolute;
 }
 
 .logo {
-  width: 167px;
-  height: 29px;
-  right: 100%;
+  position: absolute;
+  width: 167.02px;
+  height: 29.46px;
+  top: 35.02px;
+  left: 171.59px;
+  gap: 0px;
 }
 
 .menu {
+  position: absolute;
   width: 234px;
   height: 15px;
-  left: 100%;
-  position: absolute;
+  top: 37px;
+  left: 1041px;
+  gap: 0px;
+  color: #FFF;
+  font-family: 'Source Sans Pro Bold', 'helvetica';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  word-spacing: 20px;
 }
 
-.h1 {
+
+.top-banner h1 {
   width: 684px;
   height: 151px;
-  position: absolute;
+  position: fixed;
+  top: 220px;
+  left: 377px;
+  font-family: 'Source Sans Pro-Black', ;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  color: #FFF;
+  letter-spacing: normal;
+  white-space: nowrap;
+}
+
+.top-banner p {
+  
 }
