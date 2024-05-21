@@ -1,63 +1,72 @@
-body {
-  width: 1440px;
-  height: 3718px;
+@font-face {
+  font-family: 'Source Sans Pro-Bold';
+  src: url(fonts/SourceSansPro-Bold.otf);
 }
 
-.background-img {
-  background-image: url('images/background.png');
-  width: 1440px;
-  height: 1093px;
-  position: fixed;
+body {
+  margin: 0px;
+  padding: 0px;
 }
+
 
 header {
-  position: relative;
-  width: 1103px;
-  height: 29px;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 10px;
+  width: 100%;
+}
+
+
 .logo {
-  position: absolute;
-  width: 167.02px;
-  height: 29.46px;
-  top: 35.02px;
-  left: 171.59px;
-  gap: 0px;
+  align-items: left;
 }
 
 .menu {
-  position: absolute;
-  width: 234px;
-  height: 15px;
-  top: 37px;
-  left: 1041px;
-  gap: 0px;
+  align-items: right;
+  word-spacing: 52px;
+}
+
+.menu a {
   color: #FFF;
-  font-family: 'Source Sans Pro Bold', 'helvetica';
+  font-family: 'Source Sans Pro', 'helvetica';
+  font-weight: 700;
   font-size: 12px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  word-spacing: 20px;
+  text-decoration: none;
 }
 
 
+
 .top-banner h1 {
-  width: 684px;
-  height: 151px;
-  position: fixed;
-  top: 220px;
-  left: 377px;
-  font-family: 'Source Sans Pro-Black', ;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Source Sans Pro-Bold';
   font-size: 120px;
   font-weight: 700;
   line-height: normal;
   text-align: center;
   color: #FFF;
-  letter-spacing: normal;
-  white-space: nowrap;
 }
 
-.top-banner p {
-  
+.three-words p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Sans Pro', 'helvetica';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.11px;
+  text-align: center;
+  color: #FFF;
 }
