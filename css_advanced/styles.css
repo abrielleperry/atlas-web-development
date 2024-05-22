@@ -8,6 +8,26 @@
   src: url(fonts/SourceSansPro-Semibold.otf);
 }
 
+@font-face {
+  font-family: 'Source Sans Pro-Regular';
+  src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro-Extralight';
+  src: url(fonts/SourceSansPro-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro-Light';
+  src: url(fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+  font-family: 'Source Sans Pro-Black';
+  src: url(fonts/SourceSansPro-Black.otf);
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -77,6 +97,16 @@ header {
   color: #FFF;
 }
 
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+
 button {
   display: flex;
   justify-content: center;
@@ -90,13 +120,27 @@ button {
   font-weight: 400;
 }
 
-.button-container {
+
+.bottom-banner {
   display: flex;
   flex-direction: column;
+}
+
+.highlight {
+  color: #C271FF;
+  font-family: "Source Sans Pro-Bold";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
   text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  margin: 4px 2px;
+}
 
-
+.bottom-banner h2 {
+  color: #FFF;
+  font-family: "Source Sans Pro-Light";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
 }
