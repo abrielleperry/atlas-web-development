@@ -3,6 +3,11 @@
   src: url(fonts/SourceSansPro-Bold.otf);
 }
 
+@font-face {
+  font-family: 'Source Sans Pro-Semibold';
+  src: url(fonts/SourceSansPro-Semibold.otf);
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -70,4 +75,28 @@ header {
   font-weight: 700;
   font-size: 16px;
   color: #FFF;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C271FF;
+  border: none;
+  border-radius: 22px;
+  padding: 20px;
+  color: white;
+  font-family: "Source Sans Pro-Semibold";
+  font-weight: 400;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+
+
 }
