@@ -225,3 +225,22 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.popular {
+  color: #C271FF;
+  font-family: "Source Sans Pro-Semibold";
+  font-size: 32px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.video h1 {
+  text-align: center;
+  color: black;
+  font-family: "Source Sans Pro-Light";
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+  word-spacing: 4px;
+}
