@@ -276,27 +276,27 @@ main {
   color: #07162980;
 }
 
-.four-videos h3 {
-  color: #C271FF;
-  font-family: "Source Sans Pro-Regular";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 27px; /* 192.857% */
-  text-align: left;
-  margin-left: 15px;
-}
-
 .phillip {
   display: flex;
   justify-content: flex-start;
 
 }
 
+.phillip p {
+  color: #C271FF;
+  font-family: "Source Sans Pro-Regular";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 27px; /* 192.857% */
+  text-align: left;
+  margin-left: 15px;
+}
+
 
 .phillip img {
   display: flex;
   width: 30px;
+  padding-right: 20px;
 }
 
 .stars-mins {
@@ -304,24 +304,30 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 25px;
+}
+
+.stars-mins p {
+  display: flex;
+  color: #C271FF;
+  text-align: right;
+  font-family: "Source Sans Pro-Regular";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 27px;
 }
 
 .stars {
-  width: 107px;
   display: flex;
-  flex: wrap;
-  flex-shrink: 0;
+  margin-top: 25px;
 }
 
-.four-videos minutes {
-  color: #C271FF;
-  text-align: right;
-  font-family: "Source Sans Pro";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 27px; /* 192.857% */
+.stars img {
+  display: flex;
+  width: 15px;
+  height: 15px;
 }
+
 
 .review {
   display: flex;
