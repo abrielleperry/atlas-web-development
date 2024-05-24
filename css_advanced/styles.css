@@ -293,13 +293,24 @@ main {
 
 }
 
+
+.phillip img {
+  display: flex;
+  width: 30px;
+}
+
 .stars-mins {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .stars {
   width: 107px;
+  display: flex;
+  flex: wrap;
+  flex-shrink: 0;
 }
 
 .four-videos minutes {
@@ -312,3 +323,7 @@ main {
   line-height: 27px; /* 192.857% */
 }
 
+.review {
+  display: flex;
+  flex-direction: column;
+}
