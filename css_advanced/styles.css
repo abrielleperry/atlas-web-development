@@ -79,7 +79,10 @@ header {
   text-decoration: none;
 }
 
-
+.banner {
+  display: flex;
+  flex-direction: column;
+}
 
 .top-banner h1 {
   display: flex;
@@ -185,17 +188,17 @@ main {
 }
 
 .testimonial {
-  background-color: #C271FF;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px;
+  background-color: #C271FF;
 }
 
 
 
 .testimonial img {
+  display: flex;
   padding: 10px;
-  margin-right: 50px;
   max-width: 160px;
 }
 
@@ -204,7 +207,6 @@ main {
 .quote {
   display: flex;
   flex-direction: column;
-  flex: 2;
   color: #FFF;
   text-align: left;
   font-size: 22px;
@@ -226,6 +228,7 @@ main {
 .video {
   display: flex;
   flex-direction: column;
+
 }
 
 .popular {
@@ -250,7 +253,9 @@ main {
 .four-videos {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
 .four-videos h2 {
@@ -299,11 +304,11 @@ main {
 
 .four-videos minutes {
   color: #C271FF;
-text-align: right;
-font-family: "Source Sans Pro";
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 27px; /* 192.857% */
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 192.857% */
 }
 
