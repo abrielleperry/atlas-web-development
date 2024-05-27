@@ -342,6 +342,27 @@ main {
 
 .membership {
   display: flex;
-  flex: column;
+  flex-direction: column;
   background-color: #071629;
+}
+
+.free-membership {
+  display: flex;
+  flex-direction: column;
+}
+
+.free-membership h1 {
+  font-family: "Source Sans Pro-Extralight";
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+}
+
+.free {
+  color: #C271FF;
+  font-family: "Source Sans Pro-Regular";
+  font-weight: 700;
 }
