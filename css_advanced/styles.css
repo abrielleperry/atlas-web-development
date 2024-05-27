@@ -261,19 +261,21 @@ main {
 .four-videos h2 {
   font-family: Source Sans Pro-Regular;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: normal;
   line-height: 20.11px;
   text-align: left;
   color: #071629;
 }
 
 .four-videos p {
-  font-family: Source Sans Pro-Regular;
+  display: flex;
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro-Regular";
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  color: #07162980;
+  line-height: 24px; 
+  flex-wrap: nowrap;
 }
 
 .phillip {
@@ -282,7 +284,7 @@ main {
 
 }
 
-.phillip p {
+.phillip h3 {
   color: #C271FF;
   font-family: "Source Sans Pro-Regular";
   font-size: 14px;
@@ -290,12 +292,12 @@ main {
   line-height: 27px; /* 192.857% */
   text-align: left;
   margin-left: 15px;
+  font-weight: normal;
 }
 
 
 .phillip img {
   display: flex;
-  width: 30px;
   padding-right: 20px;
 }
 
