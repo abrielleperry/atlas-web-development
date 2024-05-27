@@ -36,6 +36,8 @@
   src: url(fonts/SourceSansPro-It.otf);
 }
 
+
+
 h1, h2, h3 {
   font-weight: normal;
   font-style: normal;
@@ -291,9 +293,6 @@ main {
 .phillip {
   display: flex;
   justify-content: flex-start;
-  width: 1440px;
-  height: 392px;
-
 }
 
 .phillip h3 {
