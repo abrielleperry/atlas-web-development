@@ -291,6 +291,8 @@ main {
 .phillip {
   display: flex;
   justify-content: flex-start;
+  width: 1440px;
+  height: 392px;
 
 }
 
@@ -383,6 +385,7 @@ main {
   justify-content: space-evenly;
   align-items: center;
   padding: 40px;
+  gap: 10px;
 }
 
 .smileys {
@@ -421,10 +424,11 @@ main {
   flex-direction: column;
   align-items: center;
   color: #FFF;
-  font-family: Source Sans Pro-Regular;
+  font-family: "Source Sans Pro-ExtraLight";
   font-size: 14px;
   line-height: 26px;
   text-align: center;
+  flex-wrap: wrap;
 
 }
 
@@ -492,4 +496,58 @@ main {
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #071629;
+  padding: 50px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-img img {
+  display: flex;
+  flex-direction: row;
+  width: 169px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links img {
+  display: flex;
+  flex-direction: row;
+  width: 130px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copyright p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #FFF;
+  opacity: 0.3517;
+  font-family: "Source Sans Pro-Regular";
+  font-size: 12px;
 }
