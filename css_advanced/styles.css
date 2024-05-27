@@ -259,23 +259,26 @@ main {
 }
 
 .four-videos h2 {
+  display: flex;
   font-family: Source Sans Pro-Regular;
   font-size: 16px;
   font-weight: normal;
   line-height: 20.11px;
   text-align: left;
   color: #071629;
+  margin: 20px;
 }
 
 .four-videos p {
   display: flex;
+  width: 300px;
   color: rgba(7, 22, 41, 0.50);
   font-family: "Source Sans Pro-Regular";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
-  flex-wrap: nowrap;
+  line-height: 24px;
+  margin: 20px;
 }
 
 .phillip {
@@ -291,14 +294,15 @@ main {
   font-style: normal;
   line-height: 27px; /* 192.857% */
   text-align: left;
-  margin-left: 15px;
   font-weight: normal;
+  margin-top: 35px;
 }
 
 
 .phillip img {
   display: flex;
   padding-right: 20px;
+  margin: 20px;
 }
 
 .stars-mins {
@@ -306,7 +310,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 25px;
+  margin: 20px
 }
 
 .stars-mins p {
@@ -334,4 +338,10 @@ main {
 .review {
   display: flex;
   flex-direction: column;
+}
+
+.membership {
+  display: flex;
+  flex: column;
+  background-color: #071629;
 }
