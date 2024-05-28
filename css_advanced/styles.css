@@ -42,6 +42,7 @@
   src: url(fonts/SourceSansPro-It.otf);
 }
 
+
 div {
   border: 1px solid #ddd;
 }
@@ -71,27 +72,37 @@ header {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: right;
-  padding: 10px;
   width: 100%;
 }
 
 
 .logo {
-  align-items: left;
+  display: flex;
+
+}
+
+.logo img {
+  display: flex;
+  width: 300px;
+  padding: 30px;
 }
 
 .menu {
-  align-items: right;
-  word-spacing: 52px;
+  display: flex;
+  padding-top: 35px;
+  
 }
 
 .menu a {
+  display: flex;
   color: #FFF;
   font-family: Source Sans Pro-Semibold;
   font-size: 12px;
   line-height: 15px;
   text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  
 }
 
 .banner {
@@ -112,14 +123,17 @@ header {
 .three-words {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .three-words p {
-  font-family: Source Sans Pro-Regular;
+  display: flex;
+  flex-direction: column;
+  font-family: Source Sans Pro-Semibold;
   font-size: 16px;
   color: #FFF;
-  line-height: 20px
+  line-height: 20px;
+  word-spacing: 100px;
 }
 
 
@@ -143,7 +157,7 @@ button {
   border-radius: 25px;
   padding: 20px;
   color: white;
-  font-family: Source Sans Pro-Regular;
+  font-family: Source Sans Pro-Semibold;
 }
 
 
@@ -277,6 +291,7 @@ main {
   color: #071629;
   font-family: Source Sans Pro-Light;
   font-size: 32px;
+  padding: 30px
 }
 
 .popular {
@@ -294,13 +309,17 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 50px;
 
 }
 
 .video-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
+
+
 
 .video-box h2 {
   display: flex;
@@ -309,6 +328,8 @@ main {
   font-size: 16px;
   line-height: normal;
   color: #071629;
+  padding-left: 50px;
+  padding-right: 50px;
 
 }
 
@@ -317,19 +338,23 @@ main {
   font-family: Source Sans Pro-Light;
   font-size: 14px;
   color: #07162980;
-
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.video-box img {
+.video-img {
   display: flex;
-  max-width: 255px;
-  max-height: 154px;
+  justify-content: space-evenly;
+}
+
+.video-img img {
+  display: flex;
 }
 
 .review {
   display: flex;
   flex-direction: column;
-
+  padding-left: 50px;
 }
 
 .phillip {
@@ -358,7 +383,7 @@ main {
 .stars-mins {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .min {
@@ -371,6 +396,9 @@ main {
   display: flex;
   font-family: Source Sans Pro-Regular;
   color: #C271FF;
+  font-size: 14px;
+  padding-left: 60px;
+  flex-wrap: nowrap;
 }
 
 
@@ -384,7 +412,7 @@ main {
 .stars img {
   display: flex;
   flex-direction: row;
-
+  margin: 2px;
 }
 
 /* Membership Section */
@@ -469,7 +497,8 @@ main {
   line-height: 26px;
   text-align: center;
   flex-wrap: wrap;
-
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .faq {
