@@ -1,5 +1,5 @@
 # HTML, advanced
-![enter image description here](https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg)
+![enter image description here](https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png)
 In this project we implement from scratch a webpage from a designer file. We focus on the HTML structure without CSS or any styling. 
 
 ## Learning Objectives
