@@ -42,11 +42,12 @@
   src: url(fonts/SourceSansPro-It.otf);
 }
 
-/*
+
+
 div {
   border: 1px solid #ddd;
 }
-*/
+
 
 
 h1, h2, h3, a, p {
@@ -210,14 +211,14 @@ button {
 .pro-box {
   display: flex;
   flex-direction: column;
+  width: 20%;
 }
 
 .pro-box img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 250px;
-  height: 250px;
+  width: 100%;
   flex-shrink: 0;
 }
 
@@ -227,6 +228,7 @@ button {
   flex-direction: column;
   color: #FFF;
   font-family: "Source Sans Pro-Black";
+  font-size: 18px;
 }
 
 .pro-box p {
@@ -509,8 +511,13 @@ main {
   line-height: 26px;
   text-align: center;
   flex-wrap: wrap;
-  padding-left: 100px;
-  padding-right: 100px;
+
+}
+
+.smile-onebox {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 }
 
 .faq {
