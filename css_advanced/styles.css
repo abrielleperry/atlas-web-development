@@ -43,10 +43,10 @@
 }
 
 
-
+/*
 div {
   border: 1px solid #ddd;
-}
+} */
 
 
 
@@ -331,6 +331,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 20%;
 }
 
 
@@ -342,8 +343,7 @@ main {
   font-size: 16px;
   line-height: normal;
   color: #071629;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 15px;
 
 }
 
@@ -352,23 +352,24 @@ main {
   font-family: Source Sans Pro-Light;
   font-size: 14px;
   color: #07162980;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 15px;
 }
 
 .video-img {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 .video-img img {
   display: flex;
+  width: 100%;
 }
 
 .review {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
+  padding-left: 15px;
 }
 
 .phillip {
@@ -411,7 +412,6 @@ main {
   font-family: Source Sans Pro-Regular;
   color: #C271FF;
   font-size: 14px;
-  padding-left: 60px;
   flex-wrap: nowrap;
 }
 
